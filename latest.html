@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WaveLink Header</title>
+
+  <!-- Tailwind CSS (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-[#17123a]">
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="sticky top-0 z-50 bg-white">
+
+    <div class="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="#" class="text-2xl font-extrabold tracking-tight">
+        wave<span class="text-[#5b2bd9]">link</span><span class="text-[#ff8a6b]">.</span>
+      </a>
+
+      <!-- Desktop menu (hidden on small screens) -->
+      <nav class="hidden lg:flex items-center gap-8 font-bold text-sm">
+        <a href="#" class="hover:text-[#5b2bd9]">Broadband</a>
+        <a href="#" class="hover:text-[#5b2bd9]">TV</a>
+        <a href="#" class="hover:text-[#5b2bd9]">Mobile</a>
+        <a href="#" class="hover:text-[#5b2bd9]">Support</a>
+        <a href="#" class="hover:text-[#5b2bd9]">Wave Connect</a>
+      </nav>
+
+      <!-- Buttons -->
+      <div class="flex items-center gap-3">
+        <button class="hidden sm:block border border-gray-300 rounded-full px-5 py-2 font-bold text-sm hover:border-[#17123a]">
+          Help
+        </button>
+        <button class="bg-[#5b2bd9] text-white rounded-full px-5 py-2 font-bold text-sm hover:bg-[#4a20b8]">
+          Log in
+        </button>
+
+        <!-- Menu button (only on small screens) -->
+        <button id="menuBtn" class="lg:hidden border border-gray-300 rounded-full w-10 h-10 text-xl">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu (hidden at the start) -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-gray-200 px-4 pb-4">
+      <a href="#" class="mobile-link block py-3 font-bold">Broadband</a>
+      <a href="#" class="mobile-link block py-3 font-bold">TV</a>
+      <a href="#" class="mobile-link block py-3 font-bold">Mobile</a>
+      <a href="#" class="mobile-link block py-3 font-bold">Support</a>
+
+    </div>
+
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+
+  <!-- Empty space so you can scroll and see the header shadow. Delete this. -->
+  <div class="h-[150vh]"></div>
+
+
+  <!-- footer -->
+
+  <footer class="bg-[#F0F0F0] px-6 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 " style="margin-left: 7%;">
+
+        <!-- SHOP.CO -->
+        <div>
+            <h1 class="text-3xl font-extrabold mb-3">WAVE LINK</h1>
+
+            <p class="text-gray-500  mb-6">
+                As a communications provider, using personal information is fundamental to what we do
+                
+            </p>
+
+            <div class="flex gap-4">
+                <a href="https://www.instagram.com/wavelink_6?cplk=MXE0NmtkM2RsZmFhOQ==" class="bg-white w-10 h-10 rounded-lg flex items-center justify-center">
+                   <img class="w-12" src="images/instagram.png" alt="">
+                </a>
+
+                <a href="#" class="bg-white  w-10 h-10 rounded-lg flex items-center justify-center">
+                    <img class="w-12" src="images/github-sign.png" alt="">
+                </a>
+
+                <a href="https://www.facebook.com/share/1C3fV1Ym6u/" class="bg-white rounded-2xl   w-11 h-11 flex items-center justify-center">
+                    <img class="w-12" src="images/social-media.png" alt="">
+                </a>
+
+                <!-- <a href="#" class="bg-white border rounded-full w-12 h-12 flex items-center justify-center">
+                    <i class="fa-brands fa-github text-xl"></i>
+                </a> -->
+            </div>
+        </div>
+
+        <!-- COMPANY -->
+        <div>
+            <h2 class=" text-lg mb-8">COMPANY</h2>
+            <ul class="space-y-5 text-gray-500">
+                <li><a href="faq.html">About Us</a></li>
+                <li><a href="faq.html#history">History of WL</a></li>
+                <li><a href="faq.html#history">Works</a></li>
+                <li><a href="faq.html#career">Career</a></li>
+            </ul>
+
+            <h2 class=" text-lg mt-8 mb-8">EXPLORE</h2>
+            <ul class="space-y-5 text-gray-500">
+                <li><a href="faq.html">Broadband</a></li>
+                <li><a href="faq.html">TV</a></li>
+                <li><a href="faq.html">Mobile</a></li>
+                <li><a href="faq.html">Eplore plans</a></li>
+            </ul>
+        </div>
+
+        <!-- HELP -->
+        <div>
+            <h1 class=" text-lg mb-8">HELP</h1>
+            <ul class="space-y-5 text-gray-500">
+                <li><a href="faq.html">Help Centre</a></li>
+                <li><a href="faq.html">Contact Us</a></li>
+                <li><a href="faq.html">Query section</a></li>
+            </ul>
+        </div>
+
+        <!-- FAQ -->
+        <div>
+            <h1 class="gap-10 text-lg mb-8">FAQ</h1>
+            <ul class="space-y-5 text-gray-500">
+                <li><a href="index.html">Account</a></li>
+                <li><a href="faq.html#qanda">Q&A</a></li>
+                <li><a href="faq.html">Offers</a></li>
+                <li><a href="faq.html">Collection</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div><span class="border border-b-4"></span></div>
+</footer>
+
+<!-- footer -->
+
+
+  <script>
+    var header = document.getElementById("header");
+    var menuBtn = document.getElementById("menuBtn");
+    var mobileMenu = document.getElementById("mobileMenu");
+    var mobileLinks = document.querySelectorAll(".mobile-link");
+
+    menuBtn.addEventListener("click", function () {
+      if (mobileMenu.classList.contains("hidden")) {
+        mobileMenu.classList.remove("hidden");   // show menu
+        menuBtn.textContent = "✕";
+      } else {
+        mobileMenu.classList.add("hidden");      // hide menu
+        menuBtn.textContent = "☰";
+      }
+    });
+
+    // 3. Close the mobile menu when any link is clicked
+    for (let i = 0; i < mobileLinks.length; i++) {
+      mobileLinks[i].addEventListener("click", function () {
+        mobileMenu.classList.add("hidden");
+        menuBtn.textContent = "☰";
+      });
+    }
+
+    // 4. Add a shadow to the header after the page is scrolled
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 10) {
+        header.classList.add("shadow-md");
+      } else {
+        header.classList.remove("shadow-md");
+      }
+    });
+  </script>
+
+</body>
+</html>
